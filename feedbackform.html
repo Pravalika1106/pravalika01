@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            
+        }
+
+        .class1 {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+
+        .class2{
+            text-align: center;
+            font-size: large;
+        }
+
+        .content{
+            padding: 30px;
+            margin: 20px;
+            background-color:#e0f7e0;
+            border-radius: 20px; 
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+        }
+
+        .n1{
+            font-size:x-large;
+            color: #333;
+            text-align: left;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .class3{
+            font-size: x-large;
+            text-align: center;
+            color:black;
+            
+        }
+
+        .n2{
+            font-size:x-large;
+            color: #333;
+            text-align: left;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .n3{
+            font-size:x-large;
+            color: #333;
+            text-align: left;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+
+        .n4{
+            font-size: x-large;
+            color: #333;
+            text-align: left;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        input{
+            height: 30px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        nav{
+            margin-bottom: 70px;
+        }
+
+        nav a {
+            margin: 10px;
+            color: #fff;
+            /* text-decoration: none; */
+        }
+
+        .n5{
+            font-size: x-large;
+            color: #333;
+            text-align: left;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .radio-group {
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        input[type="radio"] {
+            margin-right: 8px;
+        }
+
+
+        .n6{
+            font-size: large;
+            color: #333333bf;
+            margin-top: 9px;
+        }
+
+        .n7{
+            font-size: large;
+            color: #333333bf;
+            margin-top: 9px;
+        }
+
+        .n8{
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <form action="#">
+            <header>
+            <!-- <fieldset style="margin"> -->
+            <div class="class2"><h1>Feedback form</h1></div><br>
+                <nav class="link" style="text-align: center;">
+                    <a href="index.html">Home</a>&nbsp;
+                    <a href="feedbackform.html">Feedback</a>&nbsp;
+                    <a href="https://forms.gle/L2KYFTkwKUo9Hf468">Quiz</a>&nbsp;
+                    <!-- <a href="References.html">References</a>&nbsp; -->
+                </nav>
+            </header>
+            <div class="outer">
+            <div class="class3"><p>Write our content review or any suggestion for improving solid waste management</p></div>
+                <div class="content">
+                
+                    <label for="fullname" class="n1">Full Name</label><br>
+                    <input type="text" placeholder="Enter your name"><br><br>
+                
+                    
+                
+                    <label for="email" class="n2">Email address</label><br>
+                    <input type="email" placeholder="Enter your email" ><br><br>
+                
+                    
+                
+                    <label for="phonenum" class="n3">Phone Number</label><br>
+                    <input type="phonenum" placeholder="Enter your number" ><br><br>
+                
+
+                    <label for="satisfy" class="n5">Do you satisfy with our content?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="yes" name="satisfy" value="yes" checked>
+                        <label for="yes" class="n6">Yes</label>
+        
+                        <input type="radio" id="no" name="satisfy" value="no" class="n8">
+                        <label for="no" class="n7">No</label>
+                    </div>
+                
+                    <label for="comment" class="n4">Write your suggestion</label>
+                    <br>
+                    <textarea name="textarea" id="comment" rows="7" cols="32"></textarea>
+                
+                    <br>
+                
+                    <button type="submit">submit</button>
+            </div>
+        </div>
+    </div>
+        <!-- </fieldset> -->
+        </form>
+    </div>
+</body>
+</html>
